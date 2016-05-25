@@ -85,9 +85,9 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'gmarik/Vundle.vim'
 Plugin 'bigfish/vim-react'
 Plugin 'jelera/vim-javascript-syntax'
-Plugin 'scrooloose/syntastic'                           " Syntax checking hacks for vim.
 Plugin 'scrooloose/nerdtree'
-Plugin 'powerline/powerline'
+Plugin 'scrooloose/syntastic'                           " Syntax checking hacks for vim.
+
 autocmd BufWritePre *.py :%s/\s\+$//e " Remove trailing whitespace on save.
 
 " syntastic
