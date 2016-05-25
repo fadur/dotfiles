@@ -4,7 +4,7 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-source /usr/local/lib/python2.7/site-packages/powerline/bindings/vim/plugin/powerline.vim
+source /usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/plugin/powerline.vim
 set laststatus=2
 
 python from powerline.vim import setup as powerline_setup
@@ -73,6 +73,9 @@ set linebreak
 " note trailing space at end of next line
 " vim-react-snippets:
 Bundle "justinj/vim-react-snippets"
+
+"solarised:
+Bundle "altercation/vim-colors-solarized"
 
 " SnipMate and its dependencies:
 Bundle "MarcWeber/vim-addon-mw-utils"
